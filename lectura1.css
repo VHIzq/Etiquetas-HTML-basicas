@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(161, 189, 241);
+}
+.text-red-low{
+  color: rgb(214, 103, 103);
+}
+.text-red-normal{
+  color: red;
+}
+.text-green{
+  color: green;
+  background-color: aliceblue;
+}
+.final{
+  margin-top: 40px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.ital{
+  font-style: italic;
+}
+.big{
+  font-size: 3rem;
+}
+.right{
+  text-align: right;
+}
+.sangria{
+  text-indent: 40px;
+}

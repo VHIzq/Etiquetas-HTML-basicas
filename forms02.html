@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles02.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Adopta un ladrido</h1>
+    <fieldset>
+      <legend>Cuestionario de adopción</legend>
+      <h3>Llena el siguiente formulario para evaluarte y puedas adoptar a uno de nuestros amigos</h3>
+      <form action="" class="formulario" method="POST">
+        <!-- Datos de usuario -->
+        <label>Indica tu nombre conmpleto, por favor:</label>
+        <input type="text" required>
+        <p>
+          <label for="">Introduce tu número de celular</label>
+          <input type="number" required>
+        </p>
+        <!-- Datos de adopción -->
+        <p>¿Alguna vez has tenido una mascota?</p>
+        <input type="radio" name="pregunta2">Si
+        <input type="radio" name="pregunta2">No
+        <p>¿Qué tamaño de perro quieres adoptar?</p>
+        <select name="pregunta3" id="preg3">
+          <option value="seleccion" disabled>Selecciona un tamaño</option>
+          <option value="s">Pequeño</option>
+          <option value="m">Mediano</option>
+          <option value="l">Grande</option>
+          <option value="XL">Muy grande</option>
+        </select>
+        <p>
+          <label for="">¿Cuál es el presupuesto destinado para la mascota?</label>
+          <input type="number" placeholder="$000">
+        </p>
+        <p>
+          <label for="preg4">
+            ¿Cuando te enojas con alguien como sueles reacionar?
+          </label>
+        </p>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+        <br>
+        <button type="submit">Quiero adoptar</button>
+        
+      </fieldset>  
+    </form>
+  </div>
+  
+</body>
+</html>

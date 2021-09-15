@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+}
+h2{
+  font-size: 1rem;
+  font-weight: normal;
+  background-color: gray;
+}
+h3{
+  background-color: gray;
+  color: red;
+}
+label{
+  color: blue;
+}
+.texto{
+  background-color: rgb(177, 171, 171);
+  height: 50px;
+}
+.texto2{
+  color: rgb(199, 159, 236);
+  
+}
+.texto3{
+  background-color: rgb(177, 171, 171);
+  color: blue;
+}
+span{
+  display: block;
+  padding: 5px;
+  color: blue;
+  text-decoration: underline;
+  background-color: rgb(177, 171, 171);
+}

@@ -1,0 +1,13 @@
+body{
+  background-color: whitesmoke;
+  font-size: 1.3rem;
+}
+.contenedor{
+  width: 70%;
+  margin: 0 auto;
+}
+button:hover{
+  cursor: pointer;
+  background-color: orange;
+  border: 1px solid orange;
+}
